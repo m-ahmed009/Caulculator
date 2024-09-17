@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./style.css" rel="stylesheet">
+    <title>Calculator</title>
+</head>
+
+<body>
+    <section>
+        <!-- //main body//  -->
+        <div class='container'>
+            <!-- /*  calculator container start*/ -->
+            <div class="calculator">
+                <!-- /* Input field start */-->
+                <input class='inputfield' type="text" placeholder="0" id="result-scr"></input>
+                <!-- {/* Input field end */} -->
+                <!-- {/* ALL BUTTONS WRAPPER START */} -->
+                <button onClick="clearinput()">Clear</button>
+                <button onClick="del()">Del</button>
+                <button onClick="display('/')">&divide;</button>
+                <button onClick="display('%')">%</button>
+                <button onClick="display('7')">7</button>
+                <button onClick="display('8')">8</button>
+                <button onClick="display('9')">9</button>
+                <button onClick="display('*')">&times;</button>
+                <button onClick="display('4')">4</button>
+                <button onClick="display('5')">5</button>
+                <button onClick="display('6')">6</button>
+                <button onClick="display('-')">&ndash;</button>
+                <button onClick="display('1')">1</button>
+                <button onClick="display('2')">2</button>
+                <button onClick="display('3')">3</button>
+                <button onClick="display('+')">+</button>
+                <button onClick="display('0')">0</button>
+                <button onClick="display('.')">.</button>
+                <button id='result' onClick="result()">=</button>
+            </div>
+            <!-- {/* BUTTON WRAPPER END */} -->
+        </div>
+        <!-- { calculator END*/} -->
+        </div>
+        <!-- {/* //main body// end */} -->
+    </section>
+    <script src="./script.js"> </script>
+</body>
+
+</html>
